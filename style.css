@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+header {
+display: flex;
+background-color: rgb(81, 106, 169);
+justify-content: space-between;
+align-items: center;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+header :first-child {
+  background-color: rgb(81, 106, 169);
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+header > h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  
+}
+
+main div nav {
+  display: flex;
+  background-color: rgb(208, 157, 114);
+  justify-content: space-between;
+    align-items: center;
+}
+
+main section {
+  background-color: rgb(209, 190, 173);
+  padding: 9rem;
+  gap: 1rem;
+}
+
+section div {
+  background-color: rgb(209, 190, 173);
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background: 0;
+  background-color: rgb(209, 190, 173) ;
+  border-bottom: 1px;
+}
+
+form {
+  display: flex;
+}
+
+section {
+  display: flex;
+}
+
